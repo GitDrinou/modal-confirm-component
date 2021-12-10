@@ -1,0 +1,27 @@
+{
+  "name": "modal-confirm-component",
+  "version": "1.0.1",
+  "description": "This is a modal to display when clickine on a button",
+  "main": "Modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitDrinou/modal-confirm-component.git"
+  },
+  "keywords": [
+    "react",
+    "modal"
+  ],
+  "author": "Sandrine BRIVAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitDrinou/modal-confirm-component/issues"
+  },
+  "homepage": "https://github.com/GitDrinou/modal-confirm-component#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

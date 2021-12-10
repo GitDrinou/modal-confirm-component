@@ -17,7 +17,7 @@ const Modal = ({ viewModal, dialogTitle, dialogDescription, returnTo }) => {
         setIsHidden(true)
     }
 
-    return(
+    return (
         <div
             id="dialog"
             role="dialog"
