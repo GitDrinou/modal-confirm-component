@@ -31,7 +31,8 @@ After doing these steps, normally the React app is launched on your default brow
 ## How to use it on your own project
 
 ### 1. Create a button to launch the modal
-`
+
+```
 const [viewModal, setViewModal] = useState(false)
 
 const handleClickButton = () => { 
@@ -39,10 +40,11 @@ const handleClickButton = () => {
 }
 
 <button onClick={handleClickButton}>Click Me !</button>
-`
+```
 
 ### 2. Place the Modal component on the same file of the previous button created
-`
+
+```
 import modal-confirm-component from 'modal-confirm-component'
 
 <Modal 
@@ -51,7 +53,7 @@ import modal-confirm-component from 'modal-confirm-component'
     dialogDescription = "A new employee is successfully created"
     returnTo = "/"
 />
-`
+```
 
 ## Options
 
