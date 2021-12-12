@@ -1,0 +1,41 @@
+{
+  "name": "modal-styled-react",
+  "version": "1.0.7",
+  "description": "This component displays a simple modal when user click on a button",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GitDrinou/modal-styled-react.git"
+  },
+  "keywords": [
+    "react",
+    "modal"
+  ],
+  "author": "Sandrine BRIVAK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitDrinou/modal-styled-react/issues"
+  },
+  "homepage": "https://github.com/GitDrinou/modal-styled-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.0.2",
+    "styled-components": "^5.3.3",
+    "react-spring": "^9.3.2"
+  }
+}
