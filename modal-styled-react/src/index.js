@@ -41,6 +41,8 @@ const CloseButton = styled.button`
   padding: 0;
   z-index: 999;
   border-radius: 50%;
+  border:none;
+  font-weight:bold;
   &:hover {
       background: #000;
       color: white;

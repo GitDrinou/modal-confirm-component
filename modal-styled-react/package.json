@@ -1,6 +1,6 @@
 {
   "name": "modal-styled-react",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This component displays a simple modal when user click on a button",
   "main": "./build/index.js",
   "scripts": {

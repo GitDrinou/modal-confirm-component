@@ -1,6 +1,6 @@
 # What is this ?
 
-Get a confirm modal when user click on a button.
+Get a simple modal when user click on a button.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ After doing these steps, normally the React app is launched on your default brow
 const [viewModal, setViewModal] = useState(false)
 
 const handleClickButton = () => { 
-    setViewModal(true)      
+    setViewModal(prev => !prev)      
 }
 
 <button onClick={handleClickButton}>Click Me !</button>
@@ -45,10 +45,11 @@ const handleClickButton = () => {
 ### 2. Place the Modal component on the same file of the previous button created
 
 ```
-import modal-confirm-component from 'modal-confirm-component'
+import Modal from 'modal-styled-react'
 
 <Modal 
-    viewModal={viewModal}                       
+    viewModal={viewModal}
+    setViewModal={setViewModal}                       
     dialogTitle = "Employee Created"
     dialogDescription = "A new employee is successfully created"
     returnTo = "/"
@@ -57,9 +58,10 @@ import modal-confirm-component from 'modal-confirm-component'
 
 ## Options
 
-this component support 4 options, which are both props :
+this component support 5 options, which are both props :
 
 * *viewModal* - it is a local boolean state (by default : false)
+* *setViewModal* - it is the change state function use on the modal component for close button
 * *dialogTitle* - this is the title of the confirmation (for Example: "Employee Created")
 * *dialogDescription* - this is the description/text of confirmation (for example : "A new employee is successfully created")
 * *returnTo* - this is the window.location.pathname when user click on X button on the modal dialog

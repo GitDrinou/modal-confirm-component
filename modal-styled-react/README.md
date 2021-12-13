@@ -9,24 +9,10 @@ Get a simple modal when user click on a button.
 
 If you are working with several versions of NodeJS, we recommend you install [nvm](https://github.com/nvm-sh/nvm). This tool will allow you to easily manage your NodeJS versions.
 
-## Dependencies installation
+## Installation
 
 Execute this command to install all dependencies of this project
 ### `npm install `
-
-## Lauching the project
-
-### 1. Open the project on your IDE (here we use VSCode)
-
-- Fork the repository
-- Clone it on your computer
-- install dependencies if necessary
-
-### 2. Run the React App project
-- Open a new terminal ( project folder )
-- Execute the following npm command : `npm start `
-
-After doing these steps, normally the React app is launched on your default browser at this address : [http://localhost:3000](http://localhost:3000)
 
 ## How to use it on your own project
 
@@ -65,9 +51,3 @@ this component support 5 options, which are both props :
 * *dialogTitle* - this is the title of the confirmation (for Example: "Employee Created")
 * *dialogDescription* - this is the description/text of confirmation (for example : "A new employee is successfully created")
 * *returnTo* - this is the window.location.pathname when user click on X button on the modal dialog
-
-## Available Scripts
-
-### `npm test`
-
-Launches tests to verify codes's validity
