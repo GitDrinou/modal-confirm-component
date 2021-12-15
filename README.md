@@ -71,3 +71,7 @@ this component support 5 options, which are both props :
 ### `npm test`
 
 Launches tests to verify codes's validity
+
+## Repo jQuery 
+
+[jquery-modal](https://github.com/kylefox/jquery-modal.git)
